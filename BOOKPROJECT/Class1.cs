@@ -24,7 +24,11 @@ public class Book
         LiteratureType = literatureType;
     }
 
-
+    // Деструктор
+    ~Book()
+    {
+        // Освобождение ресурсов, если требуется
+    }
 
     // Свойства для установки и возвращения значений полей
     public string Title
